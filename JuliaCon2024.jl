@@ -97,15 +97,15 @@ html"""
             height: 100px;
         }
         .qr-code {
-            width: 300px;
-            height: 300px;
+            width: 250px;
+            height: 250px;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div id="profile" class="profile"></div>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/QR_code_for_mobile_English_Wikipedia.svg/1920px-QR_code_for_mobile_English_Wikipedia.svg.png" alt="QR Code" class="qr-code">
+        <img src="https://i.imgur.com/PMo0JDy.png" alt="QR Code" class="qr-code">
     </div>
 
     <script>
