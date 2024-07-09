@@ -43,7 +43,6 @@ html"""
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Awesome Webpage</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -97,8 +96,8 @@ html"""
             height: 100px;
         }
         .qr-code {
-            width: 250px;
-            height: 250px;
+            width: 240px;
+            height: 240px;
         }
     </style>
 </head>
@@ -196,7 +195,7 @@ md"""
 # ╔═╡ 93cc0d87-0420-47fd-8f9a-633c93cbc9ef
 md"""
 # Architecture
-## But doesn't this already exist in other languages?
+## But wait, doesn't this already exist in other languages?
 Yes but...
 """
 
@@ -262,7 +261,7 @@ md"""
 # ╔═╡ 8bf54ab7-1005-4e12-becc-9012c80a0d43
 md"""
 
-## Undirected graph
+## Undirected graphs
 """
 
 # ╔═╡ 37a2163c-5c32-4e51-980b-1cd8de386675
@@ -353,12 +352,12 @@ end
 
 # ╔═╡ 6e1b8c79-70fb-47ed-a048-2ddccb4a00f3
 md"""
-Our graph appears to be disasortative, with the three highest degree nodes having a lower ANND than what you would expect under the null model.
+Our graph appears to be somewhat disasortative, with the three highest degree nodes having a lower ANND than what you would expect under the null model.
 """
 
 # ╔═╡ 5428e10b-2f42-4798-ade3-648aad5162cb
 md"""
-## Directed graph
+## Directed graphs
 In biology and economy, one often analyses the occurence of triadic subgraphs.
 
 $(Resource("https://i.imgur.com/4CODs3t.png", :width =>600 ))
@@ -438,7 +437,7 @@ end
 
 # ╔═╡ 38fd94bc-2e14-4087-aefd-7fe4835528c7
 md"""
-## Bipartite graph
+## Bipartite graphs
 Bipartite graphs in this framework have seen many domains, including [economy](https://www.nature.com/articles/srep10595#Abs1), [medicine](https://www.nature.com/articles/s41598-023-46184-y#Abs1), and [social media analysis](https://academic.oup.com/pnasnexus/article/3/5/pgae177/7658380#). In many cases, [extracting a validated monopartite network](https://iopscience.iop.org/article/10.1088/1367-2630/aa6b38) is used to obtain a better understanding of the system under investigation.
 
 
@@ -546,7 +545,11 @@ More at [MaxEntropyGraphs.jl Github](https://github.com/B4rtDC/MaxEntropyGraphs.
 
 # ╔═╡ 87de8426-8c54-4583-87f7-51657497e0ab
 md"""
-Reach out:
+# Q & A
+## Questions?
+
+
+## Reach out:
 - [GitHub](https://github.com/B4rtDC)
 - [Royal Military Academy, Brussel, Belgium](https://researchportal.rma.ac.be/en/persons/bart-de-clerck-2)
 - [Ghent Univeristy, Ghent, Belgium](https://research.ugent.be/web/person/bart-de-clerck-0/en)
